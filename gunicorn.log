@@ -1,0 +1,295 @@
+[2018-06-05 19:06:39 +0800] [8758] [INFO] Starting gunicorn 19.7.1
+[2018-06-05 19:06:39 +0800] [8758] [INFO] Listening at: http://127.0.0.1:8000 (8758)
+[2018-06-05 19:06:39 +0800] [8758] [INFO] Using worker: sync
+[2018-06-05 19:06:39 +0800] [8761] [INFO] Booting worker with pid: 8761
+[2018-06-05 19:06:58 +0800] [8761] [ERROR] Error handling request /AI_server/predict/
+Traceback (most recent call last):
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/falcon/api.py", line 244, in __call__
+    responder(req, resp, **params)
+  File "/Users/leepand/Downloads/BigRLab_APIs/demoday_fs/web_lab/AIaas/AIserver/AIaasFly/AlgoResource_new.py", line 76, in on_post
+    curr_model = self.models_loaded[key]
+KeyError: (u'fib_model', u'1.0.2')
+[2018-06-05 19:07:37 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:8761)
+[2018-06-05 19:07:37 +0800] [8761] [INFO] Worker exiting (pid: 8761)
+[2018-06-05 19:07:37 +0800] [8764] [INFO] Booting worker with pid: 8764
+[2018-06-05 19:07:42 +0800] [8764] [ERROR] Error handling request /AI_server/predict/
+Traceback (most recent call last):
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/falcon/api.py", line 244, in __call__
+    responder(req, resp, **params)
+  File "/Users/leepand/Downloads/BigRLab_APIs/demoday_fs/web_lab/AIaas/AIserver/AIaasFly/AlgoResource_new.py", line 76, in on_post
+    curr_model = self.models_loaded[key]
+KeyError: (u'fib_model', u'1.0.2')
+[2018-06-05 19:11:39 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:8764)
+[2018-06-05 19:11:39 +0800] [8764] [INFO] Worker exiting (pid: 8764)
+[2018-06-05 19:11:39 +0800] [8774] [INFO] Booting worker with pid: 8774
+[2018-06-05 19:11:50 +0800] [8774] [ERROR] Error handling request /AI_server/predict/
+Traceback (most recent call last):
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/falcon/api.py", line 244, in __call__
+    responder(req, resp, **params)
+  File "/Users/leepand/Downloads/BigRLab_APIs/demoday_fs/web_lab/AIaas/AIserver/AIaasFly/AlgoResource_new.py", line 76, in on_post
+    curr_model = self.models_loaded[key]
+KeyError: (u'fib_model', u'1.0.2')
+[2018-06-05 20:00:59 +0800] [8832] [INFO] Starting gunicorn 19.7.1
+[2018-06-05 20:00:59 +0800] [8832] [INFO] Listening at: http://127.0.0.1:8000 (8832)
+[2018-06-05 20:00:59 +0800] [8832] [INFO] Using worker: sync
+[2018-06-05 20:00:59 +0800] [8835] [INFO] Booting worker with pid: 8835
+[2018-06-05 20:03:13 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:8774)
+[2018-06-05 20:03:13 +0800] [8774] [INFO] Worker exiting (pid: 8774)
+[2018-06-05 20:03:13 +0800] [8836] [INFO] Booting worker with pid: 8836
+[2018-06-05 20:03:13 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:8835)
+[2018-06-05 20:03:13 +0800] [8835] [INFO] Worker exiting (pid: 8835)
+[2018-06-05 20:03:13 +0800] [8842] [INFO] Booting worker with pid: 8842
+[2018-06-05 20:04:52 +0800] [8867] [INFO] Starting gunicorn 19.7.1
+[2018-06-05 20:04:52 +0800] [8867] [INFO] Listening at: http://127.0.0.1:8000 (8867)
+[2018-06-05 20:04:52 +0800] [8867] [INFO] Using worker: sync
+[2018-06-05 20:04:52 +0800] [8870] [INFO] Booting worker with pid: 8870
+[2018-06-05 20:05:00 +0800] [8870] [ERROR] Error handling request /AI_server/predict/
+Traceback (most recent call last):
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/falcon/api.py", line 244, in __call__
+    responder(req, resp, **params)
+  File "/Users/leepand/Downloads/BigRLab_APIs/demoday_fs/web_lab/AIaas/AIserver/AIaasFly/AlgoResource_new.py", line 78, in on_post
+    curr_model = self.models_loaded[key]
+KeyError: (u'fib_model', u'1.0.2')
+[2018-06-05 20:06:42 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:8842)
+[2018-06-05 20:06:42 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:8836)
+[2018-06-05 20:06:42 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:8870)
+[2018-06-05 20:06:42 +0800] [8842] [INFO] Worker exiting (pid: 8842)
+[2018-06-05 20:06:42 +0800] [8836] [INFO] Worker exiting (pid: 8836)
+[2018-06-05 20:06:42 +0800] [8870] [INFO] Worker exiting (pid: 8870)
+[2018-06-05 20:06:42 +0800] [8874] [INFO] Booting worker with pid: 8874
+[2018-06-05 20:06:42 +0800] [8878] [INFO] Booting worker with pid: 8878
+[2018-06-05 20:06:42 +0800] [8879] [INFO] Booting worker with pid: 8879
+[2018-06-05 20:06:51 +0800] [8879] [ERROR] Error handling request /AI_server/predict/
+Traceback (most recent call last):
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/falcon/api.py", line 244, in __call__
+    responder(req, resp, **params)
+  File "/Users/leepand/Downloads/BigRLab_APIs/demoday_fs/web_lab/AIaas/AIserver/AIaasFly/AlgoResource_new.py", line 78, in on_post
+    curr_model = self.models_loaded[key]
+KeyError: (u'fib_model', u'1.0.2')
+[2018-06-05 20:07:07 +0800] [8879] [ERROR] Error handling request /AI_server/predict/
+Traceback (most recent call last):
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/falcon/api.py", line 244, in __call__
+    responder(req, resp, **params)
+  File "/Users/leepand/Downloads/BigRLab_APIs/demoday_fs/web_lab/AIaas/AIserver/AIaasFly/AlgoResource_new.py", line 78, in on_post
+    curr_model = self.models_loaded[key]
+KeyError: (u'fib_model', u'1.0.2')
+[2018-06-05 20:10:52 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:8879)
+[2018-06-05 20:10:52 +0800] [8879] [INFO] Worker exiting (pid: 8879)
+[2018-06-05 20:10:52 +0800] [8895] [INFO] Booting worker with pid: 8895
+[2018-06-05 23:09:42 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:8878)
+[2018-06-05 23:09:42 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:8874)
+[2018-06-05 23:09:42 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:8895)
+[2018-06-05 23:09:42 +0800] [8895] [INFO] Worker exiting (pid: 8895)
+[2018-06-05 23:09:42 +0800] [8874] [INFO] Worker exiting (pid: 8874)
+[2018-06-05 23:09:42 +0800] [8878] [INFO] Worker exiting (pid: 8878)
+[2018-06-05 23:09:42 +0800] [8994] [INFO] Booting worker with pid: 8994
+[2018-06-05 23:09:42 +0800] [8995] [INFO] Booting worker with pid: 8995
+[2018-06-05 23:09:42 +0800] [8996] [INFO] Booting worker with pid: 8996
+[2018-06-05 23:28:54 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:8996)
+[2018-06-05 23:28:54 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:8994)
+[2018-06-05 23:28:54 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:8995)
+[2018-06-05 23:28:54 +0800] [8994] [INFO] Worker exiting (pid: 8994)
+[2018-06-05 23:28:54 +0800] [8996] [INFO] Worker exiting (pid: 8996)
+[2018-06-05 23:28:54 +0800] [8995] [INFO] Worker exiting (pid: 8995)
+[2018-06-05 23:28:54 +0800] [9024] [INFO] Booting worker with pid: 9024
+[2018-06-05 23:28:54 +0800] [9029] [INFO] Booting worker with pid: 9029
+[2018-06-05 23:28:54 +0800] [9031] [INFO] Booting worker with pid: 9031
+[2018-06-06 02:29:38 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:9031)
+[2018-06-06 02:29:38 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:9029)
+[2018-06-06 02:29:38 +0800] [9029] [INFO] Worker exiting (pid: 9029)
+[2018-06-06 02:29:38 +0800] [9031] [INFO] Worker exiting (pid: 9031)
+[2018-06-06 02:29:38 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:9024)
+[2018-06-06 02:29:38 +0800] [9024] [INFO] Worker exiting (pid: 9024)
+[2018-06-06 02:29:39 +0800] [9047] [INFO] Booting worker with pid: 9047
+[2018-06-06 02:29:39 +0800] [9050] [INFO] Booting worker with pid: 9050
+[2018-06-06 02:29:39 +0800] [9052] [INFO] Booting worker with pid: 9052
+[2018-06-06 03:29:59 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:9050)
+[2018-06-06 03:29:59 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:9047)
+[2018-06-06 03:29:59 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:9052)
+[2018-06-06 03:29:59 +0800] [9052] [INFO] Worker exiting (pid: 9052)
+[2018-06-06 03:29:59 +0800] [9047] [INFO] Worker exiting (pid: 9047)
+[2018-06-06 03:29:59 +0800] [9050] [INFO] Worker exiting (pid: 9050)
+[2018-06-06 03:30:00 +0800] [9057] [INFO] Booting worker with pid: 9057
+[2018-06-06 03:30:00 +0800] [9059] [INFO] Booting worker with pid: 9059
+[2018-06-06 03:30:00 +0800] [9062] [INFO] Booting worker with pid: 9062
+[2018-06-06 04:30:20 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:9059)
+[2018-06-06 04:30:20 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:9062)
+[2018-06-06 04:30:20 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:9057)
+[2018-06-06 04:30:20 +0800] [9059] [INFO] Worker exiting (pid: 9059)
+[2018-06-06 04:30:20 +0800] [9062] [INFO] Worker exiting (pid: 9062)
+[2018-06-06 04:30:20 +0800] [9057] [INFO] Worker exiting (pid: 9057)
+[2018-06-06 04:30:21 +0800] [9072] [INFO] Booting worker with pid: 9072
+[2018-06-06 04:30:21 +0800] [9075] [INFO] Booting worker with pid: 9075
+[2018-06-06 04:30:21 +0800] [9076] [INFO] Booting worker with pid: 9076
+[2018-06-06 05:30:41 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:9075)
+[2018-06-06 05:30:41 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:9072)
+[2018-06-06 05:30:41 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:9076)
+[2018-06-06 05:30:41 +0800] [9075] [INFO] Worker exiting (pid: 9075)
+[2018-06-06 05:30:41 +0800] [9076] [INFO] Worker exiting (pid: 9076)
+[2018-06-06 05:30:41 +0800] [9072] [INFO] Worker exiting (pid: 9072)
+[2018-06-06 05:30:42 +0800] [9110] [INFO] Booting worker with pid: 9110
+[2018-06-06 05:30:42 +0800] [9111] [INFO] Booting worker with pid: 9111
+[2018-06-06 05:30:42 +0800] [9112] [INFO] Booting worker with pid: 9112
+[2018-06-06 07:58:16 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:9110)
+[2018-06-06 07:58:16 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:9111)
+[2018-06-06 07:58:16 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:9112)
+[2018-06-06 07:58:16 +0800] [9111] [INFO] Worker exiting (pid: 9111)
+[2018-06-06 07:58:16 +0800] [9112] [INFO] Worker exiting (pid: 9112)
+[2018-06-06 07:58:16 +0800] [9110] [INFO] Worker exiting (pid: 9110)
+[2018-06-06 07:58:16 +0800] [9147] [INFO] Booting worker with pid: 9147
+[2018-06-06 07:58:16 +0800] [9148] [INFO] Booting worker with pid: 9148
+[2018-06-06 07:58:16 +0800] [9149] [INFO] Booting worker with pid: 9149
+[2018-06-06 08:34:57 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:9149)
+[2018-06-06 08:34:57 +0800] [9149] [INFO] Worker exiting (pid: 9149)
+[2018-06-06 08:34:57 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:9148)
+[2018-06-06 08:34:57 +0800] [9148] [INFO] Worker exiting (pid: 9148)
+[2018-06-06 08:34:57 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:9147)
+[2018-06-06 08:34:57 +0800] [9147] [INFO] Worker exiting (pid: 9147)
+[2018-06-06 08:34:57 +0800] [9253] [INFO] Booting worker with pid: 9253
+[2018-06-06 08:34:57 +0800] [9255] [INFO] Booting worker with pid: 9255
+[2018-06-06 08:34:57 +0800] [9256] [INFO] Booting worker with pid: 9256
+[2018-06-06 08:43:28 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:9256)
+[2018-06-06 08:43:28 +0800] [9256] [INFO] Worker exiting (pid: 9256)
+[2018-06-06 08:43:28 +0800] [9272] [INFO] Booting worker with pid: 9272
+[2018-06-06 08:43:28 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:9255)
+[2018-06-06 08:43:28 +0800] [9255] [INFO] Worker exiting (pid: 9255)
+[2018-06-06 08:43:28 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:9253)
+[2018-06-06 08:43:28 +0800] [9253] [INFO] Worker exiting (pid: 9253)
+[2018-06-06 08:43:28 +0800] [9276] [INFO] Booting worker with pid: 9276
+[2018-06-06 08:43:28 +0800] [9277] [INFO] Booting worker with pid: 9277
+[2018-06-06 08:43:47 +0800] [9277] [ERROR] Error handling request /AI_server/predict/
+Traceback (most recent call last):
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/falcon/api.py", line 244, in __call__
+    responder(req, resp, **params)
+  File "/Users/leepand/Downloads/BigRLab_APIs/demoday_fs/web_lab/AIaas/AIserver/AIaasFly/AlgoResource_new.py", line 78, in on_post
+    curr_model = self.models_loaded[key]
+KeyError: (u'fib_model', u'1.0.2')
+[2018-06-06 13:10:27 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:9276)
+[2018-06-06 13:10:27 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:9272)
+[2018-06-06 13:10:27 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:9277)
+[2018-06-06 13:10:27 +0800] [9277] [INFO] Worker exiting (pid: 9277)
+[2018-06-06 13:10:27 +0800] [9272] [INFO] Worker exiting (pid: 9272)
+[2018-06-06 13:10:27 +0800] [9276] [INFO] Worker exiting (pid: 9276)
+[2018-06-06 13:10:27 +0800] [10078] [INFO] Booting worker with pid: 10078
+[2018-06-06 13:10:27 +0800] [10079] [INFO] Booting worker with pid: 10079
+[2018-06-06 13:10:27 +0800] [10083] [INFO] Booting worker with pid: 10083
+[2018-06-06 13:49:29 +0800] [10079] [ERROR] Error handling request /AI_server/predict/
+Traceback (most recent call last):
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 176, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/Users/leepand/anaconda2/lib/python2.7/site-packages/falcon/api.py", line 244, in __call__
+    responder(req, resp, **params)
+  File "/Users/leepand/Downloads/BigRLab_APIs/demoday_fs/web_lab/AIaas/AIserver/AIaasFly/AlgoResource_new.py", line 78, in on_post
+    curr_model = self.models_loaded[key]
+KeyError: (u'fib_model', u'1.0.2')
+[2018-06-06 16:58:55 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:10083)
+[2018-06-06 16:58:55 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:10078)
+[2018-06-06 16:58:55 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:10079)
+[2018-06-06 16:58:55 +0800] [10083] [INFO] Worker exiting (pid: 10083)
+[2018-06-06 16:58:55 +0800] [10079] [INFO] Worker exiting (pid: 10079)
+[2018-06-06 16:58:55 +0800] [10078] [INFO] Worker exiting (pid: 10078)
+[2018-06-06 16:58:55 +0800] [10399] [INFO] Booting worker with pid: 10399
+[2018-06-06 16:58:55 +0800] [10401] [INFO] Booting worker with pid: 10401
+[2018-06-06 16:58:55 +0800] [10403] [INFO] Booting worker with pid: 10403
+[2018-06-06 17:30:49 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:10403)
+[2018-06-06 17:30:49 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:10399)
+[2018-06-06 17:30:49 +0800] [10399] [INFO] Worker exiting (pid: 10399)
+[2018-06-06 17:30:49 +0800] [10403] [INFO] Worker exiting (pid: 10403)
+[2018-06-06 17:30:49 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:10401)
+[2018-06-06 17:30:49 +0800] [10401] [INFO] Worker exiting (pid: 10401)
+[2018-06-06 17:30:49 +0800] [10466] [INFO] Booting worker with pid: 10466
+[2018-06-06 17:30:49 +0800] [10469] [INFO] Booting worker with pid: 10469
+[2018-06-06 17:30:49 +0800] [10470] [INFO] Booting worker with pid: 10470
+[2018-06-06 18:36:35 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:10469)
+[2018-06-06 18:36:35 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:10470)
+[2018-06-06 18:36:35 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:10466)
+[2018-06-06 18:36:36 +0800] [10470] [INFO] Worker exiting (pid: 10470)
+[2018-06-06 18:36:36 +0800] [10469] [INFO] Worker exiting (pid: 10469)
+[2018-06-06 18:36:36 +0800] [10466] [INFO] Worker exiting (pid: 10466)
+[2018-06-06 18:36:36 +0800] [10559] [INFO] Booting worker with pid: 10559
+[2018-06-06 18:36:36 +0800] [10558] [INFO] Booting worker with pid: 10558
+[2018-06-06 18:36:36 +0800] [10562] [INFO] Booting worker with pid: 10562
+[2018-06-06 18:51:29 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:10562)
+[2018-06-06 18:51:29 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:10558)
+[2018-06-06 18:51:29 +0800] [10558] [INFO] Worker exiting (pid: 10558)
+[2018-06-06 18:51:29 +0800] [10562] [INFO] Worker exiting (pid: 10562)
+[2018-06-06 18:51:29 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:10559)
+[2018-06-06 18:51:29 +0800] [10559] [INFO] Worker exiting (pid: 10559)
+[2018-06-06 18:51:29 +0800] [10603] [INFO] Booting worker with pid: 10603
+[2018-06-06 18:51:29 +0800] [10607] [INFO] Booting worker with pid: 10607
+[2018-06-06 18:51:29 +0800] [10608] [INFO] Booting worker with pid: 10608
+[2018-06-06 18:53:16 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:10603)
+[2018-06-06 18:53:16 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:10607)
+[2018-06-06 18:53:16 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:10608)
+[2018-06-06 18:53:16 +0800] [10603] [INFO] Worker exiting (pid: 10603)
+[2018-06-06 18:53:16 +0800] [10607] [INFO] Worker exiting (pid: 10607)
+[2018-06-06 18:53:16 +0800] [10608] [INFO] Worker exiting (pid: 10608)
+[2018-06-06 18:53:17 +0800] [10634] [INFO] Booting worker with pid: 10634
+[2018-06-06 18:53:17 +0800] [10635] [INFO] Booting worker with pid: 10635
+[2018-06-06 18:53:17 +0800] [10636] [INFO] Booting worker with pid: 10636
+[2018-06-06 20:53:54 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:10635)
+[2018-06-06 20:53:54 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:10636)
+[2018-06-06 20:53:54 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:10634)
+[2018-06-06 20:53:54 +0800] [10635] [INFO] Worker exiting (pid: 10635)
+[2018-06-06 20:53:54 +0800] [10636] [INFO] Worker exiting (pid: 10636)
+[2018-06-06 20:53:54 +0800] [10634] [INFO] Worker exiting (pid: 10634)
+[2018-06-06 20:53:54 +0800] [10663] [INFO] Booting worker with pid: 10663
+[2018-06-06 20:53:54 +0800] [10665] [INFO] Booting worker with pid: 10665
+[2018-06-06 20:53:54 +0800] [10667] [INFO] Booting worker with pid: 10667
+[2018-06-06 20:59:37 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:10667)
+[2018-06-06 20:59:37 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:10665)
+[2018-06-06 20:59:37 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:10663)
+[2018-06-06 20:59:37 +0800] [10665] [INFO] Worker exiting (pid: 10665)
+[2018-06-06 20:59:37 +0800] [10663] [INFO] Worker exiting (pid: 10663)
+[2018-06-06 20:59:37 +0800] [10667] [INFO] Worker exiting (pid: 10667)
+[2018-06-06 20:59:38 +0800] [10677] [INFO] Booting worker with pid: 10677
+[2018-06-06 20:59:38 +0800] [10680] [INFO] Booting worker with pid: 10680
+[2018-06-06 20:59:38 +0800] [10679] [INFO] Booting worker with pid: 10679
+[2018-06-06 21:06:26 +0800] [8758] [CRITICAL] WORKER TIMEOUT (pid:10680)
+[2018-06-06 21:06:26 +0800] [8867] [CRITICAL] WORKER TIMEOUT (pid:10679)
+[2018-06-06 21:06:26 +0800] [8832] [CRITICAL] WORKER TIMEOUT (pid:10677)
+[2018-06-06 21:06:27 +0800] [10680] [INFO] Worker exiting (pid: 10680)
+[2018-06-06 21:06:27 +0800] [10677] [INFO] Worker exiting (pid: 10677)
+[2018-06-06 21:06:27 +0800] [10679] [INFO] Worker exiting (pid: 10679)
+[2018-06-06 21:06:27 +0800] [10719] [INFO] Booting worker with pid: 10719
+[2018-06-06 21:06:27 +0800] [10721] [INFO] Booting worker with pid: 10721
+[2018-06-06 21:06:27 +0800] [10720] [INFO] Booting worker with pid: 10720
+[2018-06-06 21:44:04 +0800] [10721] [INFO] Worker exiting (pid: 10721)
+[2018-06-06 21:44:04 +0800] [10719] [INFO] Worker exiting (pid: 10719)
+[2018-06-06 21:44:04 +0800] [10720] [INFO] Worker exiting (pid: 10720)
+[2018-06-06 21:44:04 +0800] [8867] [INFO] Handling signal: term
+[2018-06-06 21:44:04 +0800] [8832] [INFO] Handling signal: term
+[2018-06-06 21:44:04 +0800] [8758] [INFO] Handling signal: term
+[2018-06-06 21:44:05 +0800] [8758] [INFO] Shutting down: Master
+[2018-06-06 21:44:05 +0800] [8867] [INFO] Shutting down: Master
+[2018-06-06 21:44:05 +0800] [8832] [INFO] Shutting down: Master
